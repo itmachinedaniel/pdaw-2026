@@ -94,5 +94,3 @@ body section#photosaver #photo1 {
     left: 100px;
     box-shadow: 5px 5px 40px 10px rgb(114 0 0);
 }
-
-image
