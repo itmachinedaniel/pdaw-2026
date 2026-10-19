@@ -1,0 +1,98 @@
+for html (index.html)
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"; href="app.css">
+    <title>my web mockup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <section>
+    <section id="section1">
+        <div>
+            <h1>FURNITURE</h1>
+            <h2>Landing page</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ab ea cumque reiciendis eius sint sunt facilis. Similique iure voluptatum, voluptates ipsa culpa dolor cumque, eligendi magnam repellat dolore veniam.</p>
+        </div>
+        <br>
+        <div>
+            <ul style="list-style-type: none;">
+                <li>
+                    <a>
+                        <i class="material-icons">language</i>
+                        <p><a href="https://www.lipsum.com" style="color:rgb(114 0 0)">https://www.lipsum.com</a></p>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="material-icons">account_circle</i>
+                        <p>/loremipsumdolorsitamet</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </section>
+        <section id="photosaver" style="margin-left:800px">
+            <div id="photo1">
+            <img style="height:900px; width:600px;" src="photo mockup.png">
+        </div>
+        </section>
+    </section>
+</body>
+</html>
+
+for css (app.css)
+
+body {
+    background-color:rgba(255, 208, 162, 0.838);
+    margin: 0;
+    padding: 0;
+    font-family: "Lilita One", sans-serif;
+    font-style: normal;
+} 
+
+#section1 {
+   
+    color: rgb(114, 0, 0);
+    margin-top: 150px;
+    margin-left: 150px;
+    padding: 10px;
+    height: 500px;
+    width: 400px;
+}
+
+
+body section div h1 {
+   text-shadow: 0px 0px 5px red;
+   font-size: 60px;
+}
+
+body section div h2 {
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+
+body section div ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+body section#photosaver {
+    display: flex;
+    align-items: center;
+}
+
+body section#photosaver #photo1 {
+    position: relative;
+    bottom: 650px;
+    left: 100px;
+    box-shadow: 5px 5px 40px 10px rgb(114 0 0);
+}
+
+image
