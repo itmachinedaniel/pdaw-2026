@@ -1,5 +1,3 @@
-for html (index.html)
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -45,52 +43,3 @@ for html (index.html)
     </section>
 </body>
 </html>
-
-for css (app.css)
-
-body {
-    background-color:rgba(255, 208, 162, 0.838);
-    margin: 0;
-    padding: 0;
-    font-family: "Lilita One", sans-serif;
-    font-style: normal;
-} 
-
-#section1 {
-   
-    color: rgb(114, 0, 0);
-    margin-top: 150px;
-    margin-left: 150px;
-    padding: 10px;
-    height: 500px;
-    width: 400px;
-}
-
-
-body section div h1 {
-   text-shadow: 0px 0px 5px red;
-   font-size: 60px;
-}
-
-body section div h2 {
-    letter-spacing: 4px;
-    font-size: 30px;
-}
-
-body section div ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-body section#photosaver {
-    display: flex;
-    align-items: center;
-}
-
-body section#photosaver #photo1 {
-    position: relative;
-    bottom: 650px;
-    left: 100px;
-    box-shadow: 5px 5px 40px 10px rgb(114 0 0);
-}
